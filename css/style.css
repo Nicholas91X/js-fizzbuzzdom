@@ -3,3 +3,49 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgba(8,59,76,255);
+    font-weight: 800;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 30px 0;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box--normale {
+    background-color: rgba(19,137,178,255);
+}
+
+.box--Fizz {
+    background-color: rgba(11,214,161,255);
+}
+
+.box--Buzz {
+    background-color: rgba(255,209,102,255);
+}
+
+.box--FizzBuzz {
+    background-color: rgba(240,70,111,255);
+}
